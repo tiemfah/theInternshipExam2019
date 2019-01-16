@@ -1,9 +1,8 @@
-import xml.etree.ElementTree as ET, json
+import xmltodict, json, os
 
-tree = ET.parse('city.xml')
-root = tree.getroot()
-for child in root:
-    print(child.tag, child.attrib)
-    for subchild in child:
-        print(subchild.tag, subchild.attrib, subchild.text)
-    print()
+
+xml_string = open('city.xml').read()
+json_temp = xmltodict.parse(xml_string)
+json_temp = json.dumps(json_temp)
+path = os.getcwd() + '/xmltojson.json'
+open(path, "w+").write(json_temp)

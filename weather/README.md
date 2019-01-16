@@ -8,3 +8,6 @@ https://stackoverflow.com/questions/12309269/how-do-i-write-json-data-to-a-file
 https://docs.python.org/3/library/json.html
 https://docs.python.org/3/library/xml.html?highlight=xml#module-xml
 https://docs.python.org/3/library/xml.etree.elementtree.html#module-xml.etree.ElementTree
+https://www.w3schools.com/js/js_json_intro.asp
+https://stackoverflow.com/questions/191536/converting-xml-to-json-using-python
+https://github.com/martinblech/xmltodictpip
