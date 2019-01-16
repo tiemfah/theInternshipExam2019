@@ -14,5 +14,7 @@ https://github.com/martinblech/xmltodictpip
 https://stackoverflow.com/questions/12943819/how-to-prettyprint-a-json-file
 
 how to run.
-#!/usr/bin/env python
-attr_prefix='@'
+
+$ pip install xmltodict
+
+then go to    #!/usr/bin/env python and change attr_prefix='@' to attr_prefix=''
