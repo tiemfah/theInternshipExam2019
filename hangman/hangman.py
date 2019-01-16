@@ -11,6 +11,9 @@ wrong_pick = []
 correct_pick = []
 
 def selecting(path):
+    """
+    selecting category and random the word from selected category.
+    """
     #  showing choice
     print('Selecting Category:')
     for category in catalog:
@@ -35,6 +38,9 @@ def selecting(path):
 
 
 def show(word):
+    """
+    show '_ _ _ _ _ _ _ _    score 0, remaining wrong guess 10'.
+    """
     for char in list(word):
         if char.isalpha():
             if char not in correct_pick:
@@ -48,6 +54,9 @@ def show(word):
 
 
 def guess(word, score, remain):
+    """
+    check if player guess correct letter and add scores or deduct remaining guess.
+    """
     character = input('Choose your letter!: ')
     if character in list(word):
         if character not in correct_pick:
@@ -62,11 +71,16 @@ def guess(word, score, remain):
 
 
 def is_won(word, correct_pick, temp):
+    """
+    check if the game should end.
+    """
     return set(word) == set(correct_pick)
 
 
 word, hint = selecting(path)
 print(f'Hint: {hint}')
+
+#  main Loop
 while not is_won(word, correct_pick, temp) or temp:
     temp = False
     show(word)
