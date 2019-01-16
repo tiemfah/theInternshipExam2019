@@ -21,4 +21,6 @@ then go to
 ```
 #!/usr/bin/env python
 ```
-and change attr_prefix='@' to attr_prefix=''
+and change attr_prefix='@'  to  attr_prefix=''
+
+and you need to have .xml file in the same directory with converter.py and run converter.py
