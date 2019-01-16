@@ -11,3 +11,8 @@ https://docs.python.org/3/library/xml.etree.elementtree.html#module-xml.etree.El
 https://www.w3schools.com/js/js_json_intro.asp
 https://stackoverflow.com/questions/191536/converting-xml-to-json-using-python
 https://github.com/martinblech/xmltodictpip
+https://stackoverflow.com/questions/12943819/how-to-prettyprint-a-json-file
+
+how to run.
+#!/usr/bin/env python
+attr_prefix='@'
