@@ -1,7 +1,7 @@
 # theInternshipExam
 ศิวณัฐ ทรัพย์ไพศาล sivanat.sub@gmail.com 0890540001
 
-## ref.
+## Reference and Credits goes to.
 i never study about xml before so.
 * https://www.w3schools.com/xml/
 * https://stackoverflow.com/questions/12309269/how-do-i-write-json-data-to-a-file
@@ -13,7 +13,7 @@ i never study about xml before so.
 * https://github.com/martinblech/xmltodictpip
 * https://stackoverflow.com/questions/12943819/how-to-prettyprint-a-json-file
 
-## how to run.
+## How to run.
 ```
 $ pip install xmltodict
 ```
