@@ -1,7 +1,7 @@
 # theInternshipExam
 ศิวณัฐ ทรัพย์ไพศาล sivanat.sub@gmail.com 0890540001
 
-ref.
+## ref.
 i never study about xml before so.
 https://www.w3schools.com/xml/
 https://stackoverflow.com/questions/12309269/how-do-i-write-json-data-to-a-file
@@ -13,8 +13,12 @@ https://stackoverflow.com/questions/191536/converting-xml-to-json-using-python
 https://github.com/martinblech/xmltodictpip
 https://stackoverflow.com/questions/12943819/how-to-prettyprint-a-json-file
 
-how to run.
-
+## how to run.
+```
 $ pip install xmltodict
-
-then go to    #!/usr/bin/env python and change attr_prefix='@' to attr_prefix=''
+```
+then go to
+```
+#!/usr/bin/env python
+```
+and change attr_prefix='@' to attr_prefix=''
