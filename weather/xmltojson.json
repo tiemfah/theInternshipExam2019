@@ -28,8 +28,8 @@
             "mode": "no"
         },
         "pressure": {
-            "@unit": "hPa",
-            "@value": "1020"
+            "unit": "hPa",
+            "value": "1020"
         },
         "temperature": {
             "max": "79.88",
@@ -38,7 +38,7 @@
             "value": "72.34"
         },
         "visibility": {
-            "@value": "10000"
+            "value": "10000"
         },
         "weather": {
             "icon": "01d",
